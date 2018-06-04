@@ -1,0 +1,287 @@
+Started GET "/" for 127.0.0.1 at 2018-05-21 04:59:00 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 303ms (Views: 12.8ms)
+
+
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (20.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(646415558928668865)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-20 22:00:31.677117"], ["updated_at", "2018-05-20 22:00:31.677117"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(646415558928668865)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-05-21 05:00:45 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (6.1ms)
+Completed 200 OK in 230ms (Views: 14.8ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2018-05-21 05:02:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/profile"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-05-21 05:03:53 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 11ms (Views: 6.4ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(646415558928668865)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateBlogs (20180520220619)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (19.8ms)[0m  [1m[35mCREATE TABLE "blogs" ("id" bigserial primary key, "title" character varying, "body" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180520220619"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(646415558928668865)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/blogs" for 127.0.0.1 at 2018-05-21 05:11:28 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (1.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 1054ms (Views: 1034.9ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/blogs/new" for 127.0.0.1 at 2018-05-21 05:11:57 +0700
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/_form.html.erb (22.5ms)
+  Rendered blogs/new.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 64ms (Views: 49.1ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/blogs" for 127.0.0.1 at 2018-05-21 05:12:24 +0700
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQnl5Nu/itt7k7OjMjaF7LSWm9PFiqmgUdwi1hw7Kyn6A7JoiAumkWPqE+jgx6XUh4tWYgXBfqeAfhpUEp78vA==", "blog"=>{"title"=>"Ruby on Rails", "body"=>"The first project for Ruby on Rails"}, "commit"=>"Create Blog"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "blogs" ("title", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Ruby on Rails"], ["body", "The first project for Ruby on Rails"], ["created_at", "2018-05-20 22:12:24.738921"], ["updated_at", "2018-05-20 22:12:24.738921"]]
+  [1m[35m (10.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/blogs/1
+Completed 302 Found in 19ms (ActiveRecord: 11.9ms)
+
+
+Started GET "/blogs/1" for 127.0.0.1 at 2018-05-21 05:12:24 +0700
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-22 20:32:46 +0700
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 24ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-22 20:32:56 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (26.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 343ms (Views: 299.3ms | ActiveRecord: 35.3ms)
+
+
+Started GET "/blogs/new" for 127.0.0.1 at 2018-05-22 20:33:03 +0700
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/_form.html.erb (20.6ms)
+  Rendered blogs/new.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 53ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blogs" for 127.0.0.1 at 2018-05-22 20:33:10 +0700
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WOb2H6QAz2nISE5M3vm4QPgkN/yFTR8Sq0ZV4ItT7b2H/PqOK+uk/rWZ/DLdEkiiVmUE1TbjcDNbASK9jjtO3w==", "blog"=>{"title"=>"Hello Duy", "body"=>"ACBCBCBC"}, "commit"=>"Create Blog"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (14.9ms)[0m  [1m[32mINSERT INTO "blogs" ("title", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Hello Duy"], ["body", "ACBCBCBC"], ["created_at", "2018-05-22 13:33:10.407594"], ["updated_at", "2018-05-22 13:33:10.407594"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/blogs/2
+Completed 302 Found in 20ms (ActiveRecord: 15.5ms)
+
+
+Started GET "/blogs/2" for 127.0.0.1 at 2018-05-22 20:33:10 +0700
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 27.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-22 20:33:12 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 32ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/blogs/2" for 127.0.0.1 at 2018-05-22 20:33:17 +0700
+Processing by BlogsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2+XioRJ/f/ByDDKoZNmynpsi37As30qTD+YIo9Oam5JNbzYdyVlJrN5A19bFAHAwUOj24qeNbjuD+RinmaNRtA==", "id"=>"2"}
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "blogs" WHERE "blogs"."id" = $1[0m  [["id", 2]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/blogs
+Completed 302 Found in 10ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-22 20:33:17 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 26.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-27 07:21:00 +0700
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 23ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-27 07:21:07 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (14.7ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/application (49.5ms)
+Completed 200 OK in 295ms (Views: 253.7ms | ActiveRecord: 33.5ms)
+
+
+Started GET "/blogs/new" for 127.0.0.1 at 2018-05-27 07:27:10 +0700
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/application
+  Rendered blogs/_form.html.erb (19.2ms)
+  Rendered blogs/new.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 58ms (Views: 42.3ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/blogs" for 127.0.0.1 at 2018-05-27 07:27:14 +0700
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FjQc3w1XWoxpLXnrmMMdneIhkvQoYNRcJZj1fvOJht8SOnciB1YLz760gEmq+kLmZvBDG4eK96nQVTHCYIqU9A==", "blog"=>{"title"=>"Hello Duy", "body"=>"qhdjksahjkf"}, "commit"=>"Create Blog"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (20.1ms)[0m  [1m[32mINSERT INTO "blogs" ("title", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Hello Duy"], ["body", "qhdjksahjkf"], ["created_at", "2018-05-27 00:27:14.802075"], ["updated_at", "2018-05-27 00:27:14.802075"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/blogs/3
+Completed 302 Found in 27ms (ActiveRecord: 20.8ms)
+
+
+Started GET "/blogs/3" for 127.0.0.1 at 2018-05-27 07:27:14 +0700
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 20.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-27 07:27:16 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 1]]
+  Rendered blogs/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-27 07:27:24 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 2]]
+  Rendered blogs/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 34ms (Views: 26.2ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-27 07:43:05 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (1.1ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 32ms (Views: 26.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/blogs/1" for 127.0.0.1 at 2018-05-27 07:43:07 +0700
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBlog Load (3.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 404 Not Found in 8ms (ActiveRecord: 3.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Blog with 'id'=2):
+  
+app/controllers/blogs_controller.rb:13:in `show'
+Started GET "/blogs/1" for 127.0.0.1 at 2018-05-27 07:44:09 +0700
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlog Load (0.2ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 38ms (Views: 21.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-05-27 07:44:12 +0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 30ms (Views: 25.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/blogs/3" for 127.0.0.1 at 2018-05-27 07:44:13 +0700
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering blogs/show.html.erb within layouts/application
+  Rendered blogs/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 65ms (Views: 53.4ms | ActiveRecord: 1.3ms)
+
+

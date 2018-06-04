@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="469e68d4-9e44-49d4-ad3d-f6fe90dbc421" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/09/09VG3ntpdKqcsVUBQd0vh6gbB61Tg52pl4mX3Dp80zA.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0A/0A_yXWYlLVDES6xqMEO-xZGuvWDrquwq8T3ffvdx1vI.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2d/2dehC5f1yO6b0RJqvvdBIS0A-YLskNOVN4S2c5xKcsM.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2y/2yPBGnKgGjB_sytk3ICy-x0U6_SFc52neNvir469CdA.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3f/3f69FaEI6uUqEFFczQaJmiqzZhd7prYS3lk4ELqINaU.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/61/61DYE6KWkT0kZHOqhoDyZVE-tFnswqDzUluEf04Z9qI.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6f/6fPDXud_rczy5WgFw9Qyfwo-zx6-6JRKR7lY61xciug.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/78/78ad1iNXJuc1qTLGQsw-BbjTGBPacHW5aK6ECIEV1t4.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7F/7FCTw9lZzc19DP9q1i3PBhSdEOxJl1F-Aa3nQzPykyU.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/99m8UCKl4j8IpsVOK8ltLHyNh8Ae0nHw3GBkC34V_co.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/AC/ACnvJgnbuxEFhwyefxezMeDBUPUfOmGqdtcGmWoJFwQ.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/B4/B43LeT9Wba4fLvXw-C_kKq-x9HwYZxnBBiltbIufzzQ.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bp/BpX5A8Dl9B1-wvpKYPQp4LMQGv4F1OdA8tyjVUTqYik.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CX/CXL0lMaEVJ_K9cXXYVLFKPvPrPl18pQR0-ZulZs12dE.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/D-/D-fIMlqVizjmmyIek5HXoRjvZeQoIl-DECpViEg6wGs.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Du/DuZrg17BtcxPVm4aRPqnGzb3E9nid2JmbXyGDwaEnjM.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EE/EEQNWUGJgwjgaN9KZbN8Rs6fnxif8uVx3xFJoQZ-o-4.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EZ/EZHveq199NmFP2EX-_f7XLzN72O6Ztp9E0byZ9xOtdM.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Gm/GmKybf3oFXVKhp94wurtN-WKsTaLoZMUjj9KXa_ePP0.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Gn/Gnmuf7hPQK4LSlGGDm_rxCaeGMBmbpqJbAfgZKcfzwg.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Is/IsIZdiB1BHznbNV_BdigGIGF7zmPxFLsp59UIDyhv_Y.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JZ/JZEaylP0u7aIePfHB-4PRvJ9ACuei7OPrWZT49q3p1Q.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/KD/KDHhY57ljE0LAAa2ZH8p-_La_BM73F1eIOfoV2YFda0.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/LcpRHOlB-h-ggd7a2vYB9Ci8OHTpjyCYQQ9CjvHU7oo.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lw/Lw6ZQ-JpweDiePQirFBcf8cpLidx3l0vPJa6NrbFqBg.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MC/MCGGUyaiJxnfyDhNE3DMFqXewdKw153wKjazrVRbiIY.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MZ/MZcwDENEs93Wd9q7A_7UWdfJrWsBXa0pGp03P9mqG2I.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/On/Onf6LOXAC7huFS3l9R6mBl_zof6ZgfT5fZn_BBtune0.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q_/Q_o3eLakXkPNhDZ_gX-MYefxNEwOjMV5MbStZK1nkQw.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rp/Rpa5vKodSG0lu_V_WPiq5TTYGcSrGLXu01qbE8oixrA.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uc/Ucrz7wfjEkvpNEvw8Rc4CWzsWhIsnWUwJ_1QVlzt6o8.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VS/VSaRBCMWSJyZmoSRyOZEQ1z8vc5yoeJzgSFvo9kcsdM.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/W1/W1xFNuNrrRlcr5IOKVprGlnzkXtnjgOFj5j9PKJ-c0k.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WQ/WQ-plukqwVvWj1prl3BEcjr6XqexMacC0foqkTRsqfY.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XJ/XJTAcEe_5Ifywj8MvsxJk_b55ZFHVMjlnWcI7mSaiS8.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Xc/Xcg4yEBl_PFUUTpAaU82ewG2Tl1nzgjGi1ia3cdqsMg.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Xg/XgpgO5NqMcDgwkg8UR-Aoq3BnGtT4KfXt-QwTwGbvOQ.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Xx/XxHtmpMeNqIwinGsluzATMo0M5SgM07VAHy1jMqCsWg.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y5/Y5IWzKQYhGehRYg-bYGFp4kBiZG8kVV50_8VhGxYH88.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YO/YOOfPU9TFHWmxry3AWKPl-JY-tCzYeKgrK-sGG6XUCE.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zg/Zgzsq-Y4OWlIXImOVTj-ikwDSseMJZpDxRB_b6WMybA.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zv/ZvCEW2ZyS-k4cHH7Gd8P2nKFE9Uh1VOrfR-1PYY2yz8.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_l/_lIpIPQT79xvZ0gzieKZkG6ejYHUN8oAns2KsLd_fqs.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eN/eN_MqgsJ6kGs2g_2oRnMvC-46tAsvIeAikPo7gO6aOs.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eq/eqHxcRn2gsABh5WI2yEuX-wYH9A25lW36zctw10khbg.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gx/gxcf7m9rdBo0hngyei-Qln5fb6Kr1xUmVEa5McECwok.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hR/hR_nMNU2j-ZxUtRPMoyPhFIdwRvMc3_Gt_DOn3WrhMM.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/i2/i2aO4OW9xSZl-M7adqANC5ocxBNvTgnNQ0GswVsFKBY.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iy/iyMwxusZ-liRgFGSfrrprQdc5Wi4NqCKFBbSHE7iwAU.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kk/kkykP2HU9oHbfL4kyi1_qzxmS-ozkpEo7CgO3z27Cs0.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kq/kqaypx9jrwx7uQNO-JJvPxK0uq_uJQZZijUQrcNpVTA.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ku/kuOcaRRP8zQ-U7T3pCeD2AeIn6rgBFiTThQwpzG3YBU.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/mP/mPYdmVQPba1qfQYpADOg6y2n1bmXk61zLGwdz8heoOs.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/p8/p8rKukaHpcybLm-xagCZ4xJJ-ViJmUNoRQSMhrFlQ00.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rN/rNvBIvver9wG5aRnTaLpUIXeFZ0e2o4pVrAD7DSNARE.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sC/sCYAXzrSOBFH6PSvWBliOGJSw4UlAfcB1itmkJ2-dBs.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sY/sYTSiD1dFW6gw23-7xFzlVhyuPOmzCXwEv7mSB4i5Fk.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tR/tRXSs3UULiiISlWPLiN2iDTMYhKvSpgMkj2fVHYq9BY.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ua/uak4riLUBV92kVPGMgpo_I8ww6q6wxi_0tVaW6zmzk0.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DevcampThanhHai.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/blogs.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/blogs_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/application_record.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/blog.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/_blog.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/bundle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/rails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/setup" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/update" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/yarn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cable.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/puma.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/secrets.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/spring.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180520220619_create_blogs.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/422.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/restart.txt" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevcampThanhHai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevcampThanhHai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: DevcampThanhHai">
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test: DevcampThanhHai" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="DevcampThanhHai" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spec: DevcampThanhHai" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="DevcampThanhHai" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Production: DevcampThanhHai" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="DevcampThanhHai" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Development: DevcampThanhHai" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="DevcampThanhHai" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: DevcampThanhHai" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: DevcampThanhHai" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: DevcampThanhHai" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: DevcampThanhHai" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="469e68d4-9e44-49d4-ad3d-f6fe90dbc421" name="Default" comment="" />
+      <created>1528130654936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528130654936</updated>
+      <workItem from="1528130657552" duration="800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="800000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="728" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
