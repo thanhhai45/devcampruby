@@ -895,3 +895,222 @@ Processing by PortfoliosController#index as HTML
 Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/portfolios/" for 127.0.0.1 at 2018-06-14 23:58:12 +0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 302ms (Views: 281.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-06-14 23:58:16 +0700
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 58ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-06-15 00:06:16 +0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 289ms (Views: 260.4ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/portfolios" for 127.0.0.1 at 2018-06-15 00:07:06 +0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YV/BLDTl9y2BNPi0hCFBbIXR2V/v4leEF34wYwUPxHYytYYbADSkpPOqug2CZpe4ABPfvjlt0ZJWpGQc+oo3vA==", "portfolio"=>{"title"=>"Test Create new Portfolio", "subtitle"=>"Subtitle Create new Portfolio", "body"=>"Body Create new Portfolio", "main_image"=>"", "thumb_image"=>""}, "commit"=>"Create Portfolio"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: portfolio_items):
+  
+app/controllers/portfolios_controller.rb:24:in `portfolio_params'
+app/controllers/portfolios_controller.rb:11:in `create'
+Started POST "/portfolios" for 127.0.0.1 at 2018-06-15 00:09:20 +0700
+Started GET "/portfolios" for 127.0.0.1 at 2018-06-15 00:09:30 +0700
+Started GET "/portfolios/" for 127.0.0.1 at 2018-06-15 00:09:30 +0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YV/BLDTl9y2BNPi0hCFBbIXR2V/v4leEF34wYwUPxHYytYYbADSkpPOqug2CZpe4ABPfvjlt0ZJWpGQc+oo3vA==", "portfolio"=>{"title"=>"Test Create new Portfolio", "subtitle"=>"Subtitle Create new Portfolio", "body"=>"Body Create new Portfolio", "main_image"=>"", "thumb_image"=>""}, "commit"=>"Create Portfolio"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: portfolio_items):
+  
+app/controllers/portfolios_controller.rb:11:in `create'
+Processing by PortfoliosController#index as HTML
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (20.7ms)
+  Rendered portfolios/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 85ms (Views: 61.6ms | ActiveRecord: 13.7ms)
+
+
+Completed 200 OK in 85ms (Views: 71.5ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-15 00:09:41 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 29ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/" for 127.0.0.1 at 2018-06-15 00:09:47 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 270ms (Views: 250.6ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-06-15 00:09:52 +0700
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 47ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/portfolios" for 127.0.0.1 at 2018-06-15 00:10:09 +0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y9TVd2SvKmMN8ZGPhE5EAS/IXow+R2S5CV/fi9ZkTNyYPpJAUH556n9v0zaCCZLVqgpYbejI4q9IhYv0KeG/Fg==", "portfolio"=>{"title"=>"Test Create new Portfolio", "subtitle"=>"Subtitle Create new Portfolio", "body"=>"Body Create new Portfolio", "main_image"=>"", "thumb_image"=>""}, "commit"=>"Create Portfolio"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: portfolio_items):
+  
+app/controllers/portfolios_controller.rb:11:in `create'
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-06-15 00:10:46 +0700
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 63ms (Views: 39.4ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/portfolios" for 127.0.0.1 at 2018-06-15 00:11:02 +0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xSHnv/8hfOn+4ehwXa2+P0bXBEUoO9zlqjGF6F5tctCWy6CIy/AvYIx/qslb6mjrwxUCpP60WvPr69GXoeiBGg==", "portfolio"=>{"title"=>"Test Create new Portfolio", "subtitle"=>"Subtitle Create new Portfolio", "body"=>"Body Create new Portfolio", "main_image"=>"", "thumb_image"=>""}, "commit"=>"Create Portfolio"}
+Unpermitted parameters: :main_image, :thumb_image
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[32mINSERT INTO "portfolios" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Test Create new Portfolio"], ["subtitle", "Subtitle Create new Portfolio"], ["body", "Body Create new Portfolio"], ["created_at", "2018-06-14 17:11:02.465003"], ["updated_at", "2018-06-14 17:11:02.465003"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 3.9ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"portfolios"}, missing required keys: [:id]):
+  
+app/controllers/portfolios_controller.rb:14:in `block (2 levels) in create'
+app/controllers/portfolios_controller.rb:12:in `create'
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-06-15 00:14:25 +0700
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 44ms (Views: 24.2ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/portfolios" for 127.0.0.1 at 2018-06-15 00:14:33 +0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lr9mzv0xcQMFy0pI0i9Mgr0dijW9ktReZ8UaFMc8TpLFVSH5yeAiindVCPHUaJpWON+M1GsdUkgmH05rOLm9WA==", "portfolio"=>{"title"=>"Test Create new Portfolio", "subtitle"=>"Subtitle Create new Portfolio", "body"=>"dasdasdas", "main_image"=>"", "thumb_image"=>""}, "commit"=>"Create Portfolio"}
+Unpermitted parameters: :main_image, :thumb_image
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "portfolios" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Test Create new Portfolio"], ["subtitle", "Subtitle Create new Portfolio"], ["body", "dasdasdas"], ["created_at", "2018-06-14 17:14:33.908396"], ["updated_at", "2018-06-14 17:14:33.908396"]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 8.4ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"portfolios"}, missing required keys: [:id]):
+  
+app/controllers/portfolios_controller.rb:14:in `block (2 levels) in create'
+app/controllers/portfolios_controller.rb:12:in `create'
+Started GET "/portfolios/" for 127.0.0.1 at 2018-06-15 00:15:00 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 42ms (Views: 34.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-06-15 00:15:07 +0700
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/portfolios" for 127.0.0.1 at 2018-06-15 00:15:25 +0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PElWcquyXG7cUajJ9wy7qF9YVHUntel27dZeaN5zu8BvoxFFn2MP567P6nDxS2182ppSlPE6b2CsDAoXIfZICg==", "portfolio"=>{"title"=>"Test Create new Portfolio 2", "subtitle"=>"Subtitle Create new Portfolio", "body"=>"dsadasdasdsadasdasdasdasdasdasdasdasdasdas", "main_image"=>"", "thumb_image"=>""}, "commit"=>"Create Portfolio"}
+Unpermitted parameters: :main_image, :thumb_image
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "portfolios" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Test Create new Portfolio 2"], ["subtitle", "Subtitle Create new Portfolio"], ["body", "dsadasdasdsadasdasdasdasdasdasdasdasdasdas"], ["created_at", "2018-06-14 17:15:25.262020"], ["updated_at", "2018-06-14 17:15:25.262020"]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/portfolios
+Completed 302 Found in 12ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-06-15 00:15:25 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 33ms (Views: 28.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/portfolios/5/edit" for 127.0.0.1 at 2018-06-15 00:39:08 +0700
+Processing by PortfoliosController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering portfolios/edit.html.erb within layouts/application
+  Rendered portfolios/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 49ms (Views: 32.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/portfolios/5/edit" for 127.0.0.1 at 2018-06-15 00:39:59 +0700
+Processing by PortfoliosController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering portfolios/edit.html.erb within layouts/application
+  Rendered portfolios/edit.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 32ms (Views: 27.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios/5/edit" for 127.0.0.1 at 2018-06-15 00:43:34 +0700
+Processing by PortfoliosController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering portfolios/edit.html.erb within layouts/application
+  Rendered portfolios/edit.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 40ms (Views: 24.0ms | ActiveRecord: 3.2ms)
+
+
+Started PATCH "/portfolios/5" for 127.0.0.1 at 2018-06-15 00:43:47 +0700
+Processing by PortfoliosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HLA9V/YfcyCiFhybitE7WzM4R5A4lFYg5iCZpwPMG/dPWnpgws4gqdCIXiKMlu2PtvpBce4b0Dan+s3Y/EnoPQ==", "portfolio"=>{"title"=>"Portfolio title: HaiLT", "subtitle"=>"My great services Demo", "body"=>"The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.", "main_image"=>"http://via.placeholder.com/600x200", "thumb_image"=>"http://via.placeholder.com/300x150"}, "commit"=>"Update Portfolio", "id"=>"5"}
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+Unpermitted parameters: :main_image, :thumb_image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[33mUPDATE "portfolios" SET "title" = $1, "subtitle" = $2, "updated_at" = $3 WHERE "portfolios"."id" = $4[0m  [["title", "Portfolio title: HaiLT"], ["subtitle", "My great services Demo"], ["updated_at", "2018-06-14 17:43:47.052126"], ["id", 5]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/portfolios
+Completed 302 Found in 17ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-06-15 00:43:47 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 29ms (Views: 24.2ms | ActiveRecord: 0.3ms)
+
+

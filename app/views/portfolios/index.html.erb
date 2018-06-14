@@ -5,7 +5,7 @@
     <p> <%= portfolioitem.subtitle %> </p>
     <p> <%= portfolioitem.body %> </p>
     <p> <%= portfolioitem.main_image %> </p>
-    <p> <%= image_tag portfolioitem.thumb_image %> </p>
+    <p> <%= image_tag portfolioitem.thumb_image if !portfolioitem.thumb_image.nil? %> </p>
     <p> <%= portfolioitem.created_at %> </p>
     <p> <%=  portfolioitem.updated_at %> </p>
 <% end %>
