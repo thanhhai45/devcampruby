@@ -24,6 +24,7 @@ class PortfoliosController < ApplicationController
         @portfolio_items = Portfolio.find(params[:id])
     end
 
+
     def update
         @portfolio_items = Portfolio.find(params[:id])
         respond_to do |format|
@@ -35,5 +36,10 @@ class PortfoliosController < ApplicationController
                 format.json { render json: @portfolio_items.errors, status: :unprocessable_entity }
             end
         end
+    end
+
+
+    def show
+        @portfolio_items = Portfolio.find(params[:id])
     end
 end
