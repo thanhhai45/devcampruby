@@ -3,11 +3,11 @@
 <%= link_to "Create new Portfolio Item", new_portfolio_url %>
 
 <% @portfolio_items.each do |portfolioitem| %>
-    <h2> <%= link_to portfolioitem.title, portfolio_path(portfolioitem) %> </h2>
+    <h2> <%= link_to portfolioitem.title, portfolio_show_path(portfolioitem) %> </h2>
     <p> <%= portfolioitem.subtitle %> </p>
     <p> <%= portfolioitem.body %> </p>
     <p> <%= portfolioitem.main_image %> </p>
-    <p> <%= image_tag portfolioitem.thumb_image if !portfolioitem.thumb_image.nil? %> </p>
+    <p> <%= image_tag portfolioitem.thumb_image unless portfolioitem.thumb_image.nil? %> </p>
     <p> <%= portfolioitem.created_at %> </p>
     <p> <%=  portfolioitem.updated_at %> </p>
     <button><%= link_to "Edit", edit_portfolio_path(portfolioitem.id) %></button>
