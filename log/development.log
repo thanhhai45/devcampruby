@@ -1513,3 +1513,58 @@ Processing by PortfoliosController#show as HTML
 Completed 200 OK in 42ms (Views: 34.1ms | ActiveRecord: 0.3ms)
 
 
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "portfolios" WHERE "portfolios"."id" = $1[0m  [["id", 12]]
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:38:54 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/thanhhai/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/" for 127.0.0.1 at 2018-06-16 16:48:36 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 47ms (Views: 38.6ms | ActiveRecord: 3.8ms)
+
+
+Started DELETE "/portfolios/5" for 127.0.0.1 at 2018-06-16 16:48:44 +0700
+Processing by PortfoliosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zXO+JXY8bwF9JDHztkEUsobg+Mw3SABo0Nq7lO5p4s2rBF6Wf3Chllks/3DzTOA1W0pttwHMGS+VrmHhbtrC2A==", "id"=>"5"}
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "portfolios" WHERE "portfolios"."id" = $1[0m  [["id", 5]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/portfolios
+Completed 302 Found in 11ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-06-16 16:48:44 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/portfolios/11" for 127.0.0.1 at 2018-06-16 16:48:48 +0700
+Processing by PortfoliosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7LngIWB8FqYxbEIbEXCTHuhNSZh33xVzVhuol6FMf9GKzgCSaTDYMRVkjJhUfWeZNefc40FbDDQTb3LiIf9fxA==", "id"=>"11"}
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "portfolios" WHERE "portfolios"."id" = $1[0m  [["id", 11]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/portfolios
+Completed 302 Found in 10ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-06-16 16:48:48 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
