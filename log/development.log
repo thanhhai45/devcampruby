@@ -2880,3 +2880,67 @@ FOREIGN KEY ("portfolio_id")
   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Rails"], ["portfolio_id", 10], ["created_at", "2018-07-01 10:21:55.491286"], ["updated_at", "2018-07-01 10:21:55.491286"]]
   [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Angular"], ["portfolio_id", 10], ["created_at", "2018-07-01 10:21:55.492809"], ["updated_at", "2018-07-01 10:21:55.492809"]]
   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2018-07-01 18:27:01 +0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  Rendered pages/home.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 317ms (Views: 270.2ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/portfolios/" for 127.0.0.1 at 2018-07-01 18:27:02 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 99ms (Views: 80.2ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-07-01 18:27:04 +0700
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 99ms (Views: 48.9ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/portfolios" for 127.0.0.1 at 2018-07-01 18:28:11 +0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O+4X3cpcvf1khw+o1m75IT2big2Gb2LYA37KvWKQgaOqRiVC6VqytUAegnkAyp24JV7NeOVL/Au4aNWDhti0tw==", "portfolio"=>{"title"=>"New Title", "subtitle"=>"asdas", "body"=>"ashjgdas", "technologies_attributes"=>{"0"=>{"name"=>"angular"}, "1"=>{"name"=>"ruby on rails"}, "2"=>{"name"=>"react"}}}, "commit"=>"Create Portfolio"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "portfolios" ("title", "subtitle", "body", "main_image", "thumb_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "New Title"], ["subtitle", "asdas"], ["body", "ashjgdas"], ["main_image", "http://via.placeholder.com/600x400"], ["thumb_image", "http://via.placeholder.com/350x250"], ["created_at", "2018-07-01 11:28:11.428852"], ["updated_at", "2018-07-01 11:28:11.428852"]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "angular"], ["portfolio_id", 11], ["created_at", "2018-07-01 11:28:11.431664"], ["updated_at", "2018-07-01 11:28:11.431664"]]
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "ruby on rails"], ["portfolio_id", 11], ["created_at", "2018-07-01 11:28:11.434538"], ["updated_at", "2018-07-01 11:28:11.434538"]]
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "react"], ["portfolio_id", 11], ["created_at", "2018-07-01 11:28:11.438966"], ["updated_at", "2018-07-01 11:28:11.438966"]]
+  [1m[35m (10.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/portfolios
+Completed 302 Found in 37ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-07-01 18:28:11 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 48ms (Views: 42.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-07-01 18:31:13 +0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/portfolio/11" for 127.0.0.1 at 2018-07-01 18:31:16 +0700
+Processing by PortfoliosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  Rendering portfolios/show.html.erb within layouts/application
+  [1m[36mTechnology Load (0.3ms)[0m  [1m[34mSELECT "technologies".* FROM "technologies" WHERE "technologies"."portfolio_id" = $1[0m  [["portfolio_id", 11]]
+  Rendered portfolios/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 48ms (Views: 33.9ms | ActiveRecord: 1.0ms)
+
+
